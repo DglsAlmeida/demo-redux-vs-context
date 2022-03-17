@@ -1,11 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit"
 
+const initialState = {
+  likes: 0,
+  comments: 0,
+}
+
 export const counterSlice = createSlice({
   name: "counter",
-  initialState: {
-    likes: 0,
-    comments: 0,
-  },
+  initialState,
   reducers: {
     incrementLike: (state) => {
       state.likes += 1
