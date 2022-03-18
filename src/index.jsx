@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
 import App from './App';
-import { store } from './store';
+import { CounterProvider } from './context/CounterContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <CounterProvider>
       <App />
-    </Provider>,
+    </CounterProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

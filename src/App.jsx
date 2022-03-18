@@ -8,7 +8,7 @@ const App = () => {
     <>
       <GlobalStyles />
       <Container>
-        <header>Redux</header>
+        <header>Context API</header>
         <Content>
           <Likes />
           <Comments />

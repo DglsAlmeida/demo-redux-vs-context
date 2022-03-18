@@ -13,7 +13,7 @@ export const Container = styled.div`
    justify-content: center;
    height: 60px;
    width: 100%;
-   background-color: aquamarine;
+   background-color: yellow;
    font-size: 32px;
    font-weight: bold;
  }
