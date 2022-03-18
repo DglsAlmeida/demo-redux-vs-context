@@ -27,7 +27,6 @@ export const Container = styled.div`
     }
   }
 
-
   span {
     margin-top: 8px;
     font-size: 16px;
